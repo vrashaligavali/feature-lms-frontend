@@ -163,9 +163,10 @@ export default function Navbar() {
                 Login
               </a>
               <a
-                href="/auth/register"
+                href="/auth/Register"
                 className="group relative overflow-hidden rounded-lg bg-linear-to-r from-blue-600 to-indigo-600 px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-blue-500/30 transition-all hover:scale-105 hover:shadow-xl hover:shadow-blue-500/40"
               >
+                
                 <span className="relative z-10">Get Started</span>
                 <div className="absolute inset-0 z-0 bg-linear-to-r from-blue-700 to-indigo-700 opacity-0 transition-opacity group-hover:opacity-100"></div>
               </a>
