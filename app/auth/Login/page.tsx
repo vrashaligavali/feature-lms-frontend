@@ -65,7 +65,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 flex items-center justify-center px-4 py-20 pt-28">
+    <div className="min-h-screen bg-linear-to-br from-gray-950 via-gray-900 to-gray-950 flex items-center justify-center px-4 py-20 pt-28">
       <div className="w-full max-w-sm">
         <div className="bg-gray-900/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-gray-800 p-6 relative overflow-hidden">
           
@@ -164,7 +164,7 @@ export default function LoginPage() {
               <button
                 onClick={handleSubmit}
                 disabled={isSubmitting}
-                className={`w-full py-2.5 px-6 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-purple-500/50 hover:from-purple-700 hover:to-pink-700 transform hover:scale-[1.02] transition-all text-sm mt-2 ${
+                className={`w-full py-2.5 px-6 bg-linear-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-purple-500/50 hover:from-purple-700 hover:to-pink-700 transform hover:scale-[1.02] transition-all text-sm mt-2 ${
                   isSubmitting ? 'opacity-50 cursor-not-allowed' : ''
                 }`}
               >

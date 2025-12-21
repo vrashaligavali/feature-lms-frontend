@@ -115,7 +115,7 @@ export default function RegisterPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 flex items-center justify-center px-4 py-16 pt-24">
+    <div className="min-h-screen bg-linear-to-br from-gray-950 via-gray-900 to-gray-950 flex items-center justify-center px-4 py-16 pt-24">
       <div className="w-full max-w-sm">
         <div className="bg-gray-900/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-gray-800 p-5 relative overflow-hidden">
           
@@ -136,7 +136,7 @@ export default function RegisterPage() {
             {showSuccess && (
               <div className="mb-2.5 p-2 bg-green-500/20 border border-green-400/50 rounded-lg backdrop-blur-sm">
                 <div className="flex items-center text-green-300">
-                  <svg className="w-3.5 h-3.5 mr-1.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-3.5 h-3.5 mr-1.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                   </svg>
                   <span className="font-medium text-xs">Account created successfully!</span>
@@ -308,7 +308,7 @@ export default function RegisterPage() {
               <button
                 onClick={handleSubmit}
                 disabled={isSubmitting}
-                className={`w-full py-1.5 px-6 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-purple-500/50 hover:from-purple-700 hover:to-pink-700 transform hover:scale-[1.02] transition-all text-sm ${
+                className={`w-full py-1.5 px-6 bg-linear-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-purple-500/50 hover:from-purple-700 hover:to-pink-700 transform hover:scale-[1.02] transition-all text-sm ${
                   isSubmitting ? 'opacity-50 cursor-not-allowed' : ''
                 }`}
               >
